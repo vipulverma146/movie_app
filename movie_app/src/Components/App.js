@@ -1,7 +1,7 @@
 import React from 'react';
 import {data} from '../data';
 import Navbar from './Navbar';
-import MovieCard from './MovieCard';
+import MovieCard from './MovieCard'; 
 
 function App() {
   return (
