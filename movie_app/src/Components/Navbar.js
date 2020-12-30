@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { addMovieToList, handleMovieSearch } from '../actions';
-// import { data } from '../data';
+
 
 class NavbarWrapper extends Component {
   constructor(props) {
@@ -28,8 +28,8 @@ class NavbarWrapper extends Component {
   }; 
 
   render() {
-    const { showSearchResults, result: movie } = this.props.search;
-    
+    const { showSearchResults, result: movie } = this.props.search
+    const {result} =this.props.search;
     return (
       <div className="nav">
         <div className="search-container">
